@@ -1,0 +1,65 @@
+.how-it-works{
+    height: 910px;
+    background-color: #ffff;
+}
+
+.box-how-it-works{
+    display: grid;
+    grid-template-columns: 900px 300px;
+}
+.box-left-iphone-btn{
+margin-left: 25px;
+}
+
+.text-works{
+    color: #020102;
+font-family: "Gotham Pro";
+font-size: 38px;
+font-weight: 500;
+line-height: 52px;
+text-transform: uppercase;
+/* Text style for "как это ра" */
+letter-spacing: 1.52px;
+}
+.works-btn{
+    width: 270px;
+height: 71px;
+border-radius: 3px;
+background-color: #f3379d;
+
+color: #ffff;
+}
+
+.sity{
+    position: relative;
+    
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.part{
+    opacity: 0;
+}
+
+.part:hover {
+    opacity: 0.8;
+  }
+  
+
+
+
+/* .sity img{
+    display: none;
+} */
+
+.part:hover img.imqw {
+    top: 20px;
+    margin-top: -648px;
+    margin-left: 176px;
+    z-index: 1;
+    }

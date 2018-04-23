@@ -1,24 +1,114 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url(../css/header.css);
+@import url(../css/howitworks.css);
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: stretch;
+  min-height: 100%;
+  background-image: url(../img/pattern.jpg);
+  
+}
+
+
+main {
+  flex: 1 1 auto;
+}
+
+
+.conversion {
+  width: 100%;
+  height: 845px;
+}
+
+.box-conversion{
+    display: grid;
+    grid-template-columns: 320px 310px 500px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.iphone {
+  width: 320px;
+  height: 660px;
+  background: url(../img/iphone.png) no-repeat ;
+}
+
+.iphone img{
+    width: 259px;
+height: 460px;
+border: 1px solid rgba(0, 1, 1, 0.15);
+margin: 93px 24px;
+}
+
+.icons-conversion {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: stretch;
-    min-height: 100%;
-    background-image: url(../img/pattern.jpg);
+    flex-direction: row;
+    justify-content: center;
+}
+ .icons-conversion img{
+     padding: 24px 15px 0 15px;     
+ }
+
+.beacon{
+    display: flex;
+    justify-content: flex-end;
+
 }
 
-main{
-    flex:1 1 auto;
-    background-color: red;
+
+.beacon img{
+   width: 184px;
+   height: 176px;
+   margin-top: 33px;   
 }
 
-footer{
-    flex: 0 1 auto;
-    height: 32px;
-    background-color:green;
+.content-btn-h{
+    width: 500px;
+    height: 706px;
+    display: block;
+}
+
+.content-btn-h h2{
+    color: #020102;
+font-family: "Gotham Pro";
+font-size: 38px;
+font-weight: 500;
+line-height: 52px;
+text-transform: uppercase;
+/* Text style for "как повыси" */
+letter-spacing: 1.52px;
+}
+
+.text-conversion p{
+    color: #4a4d4e;
+font-family: Ubuntu;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.5px;
+}
+
+.btn-pink{
+    width: 455px;
+height: 71px;
+border-radius: 3px;
+background-color: #f3379d;
+margin-top: 53px;
+color: #f1f4f6;
+letter-spacing: 0.57px;
+font-size: 23px;
+font-weight: 500;
+line-height: 42px;
+}
+
+footer {
+  flex: 0 1 auto;
+  height: 32px;
 }

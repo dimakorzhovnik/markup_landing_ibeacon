@@ -1,6 +1,10 @@
 $('.part').hover (
 	function() {
-		$('.sity-active').html($(this).attr('description-data'));
-		$('.sity-active').fadeIn();
-	}
+		$('.screen-hover').html($(this).attr('description-data'));
+		// $('.screen-hover').fadeIn();
+    },
+    function(){
+        $('.screen-hover').fadeIn();
+    }
+
 )

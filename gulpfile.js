@@ -2,11 +2,6 @@ var gulp = require('gulp');
     sass = require('gulp-sass');
     scss = require('gulp-scss');
 
-gulp.task('sass', function(){
-    return gulp.src('app/sass/style.sass')
-        .pipe(sass())
-        .pipe(gulp.dest('app/css'))
-}); 
 
 gulp.task('scss-shop', function(){
     return gulp.src('app/scss/shop-sity.scss')

@@ -1,0 +1,27 @@
+.business-section{
+    height: 900px;
+}
+
+.icons-business:hover{
+    
+    background-color: red;
+}
+
+.icons-business img:hover{
+    color: white;
+}
+
+.re img{
+    color: white;
+}
+
+.icons-business{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    border: 2px solid rgb(103, 101, 101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

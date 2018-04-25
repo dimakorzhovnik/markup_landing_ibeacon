@@ -1,0 +1,17 @@
+
+.road:hover .str4{
+  fill: #EFCA54;
+    stroke: #1D1D1B;
+    stroke-miterlimit: 10;
+}
+.road:hover .str1 {
+    fill: #EAEAEA;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.road:hover .str2 {
+    fill: none;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}

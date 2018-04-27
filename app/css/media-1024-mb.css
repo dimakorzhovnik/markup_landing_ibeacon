@@ -1,0 +1,62 @@
+@media (min-width: 1000px) and (max-width: 1270px) {
+  .logo a {
+    margin: 34px 0 0 25%; }
+  .nav ul li a {
+    padding: 0 5px; }
+  .conversion .text-conversion p {
+    font-size: 1.2em;
+    line-height: normal;
+    letter-spacing: 0.7px; }
+  .conversion .content-btn-h {
+    margin-right: 5%; }
+  .icons-text-business {
+    grid-column-gap: 30px;
+    margin-left: 5%; }
+  .box-left-project-content {
+    margin-left: 5%; }
+  .box-right-project-content {
+    margin-right: 5%; }
+  .content-beacon {
+    margin-right: 5%; }
+  .text-caption-business {
+    margin-left: 5%; }
+  .right-box-business {
+    margin-right: 5%; }
+  .contact .box-contact {
+    display: flex;
+    flex-direction: column;
+    height: 100%; }
+    .contact .box-contact .left-contact-box {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 5%; }
+      .contact .box-contact .left-contact-box .text-contact {
+        margin-top: 20px;
+        max-width: 900px; }
+      .contact .box-contact .left-contact-box .text-contact p ~ p {
+        margin-top: 10px; }
+    .contact .box-contact .right-contact-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+      margin-right: 0; }
+    .contact .box-contact .form-contact {
+      width: 90%; }
+      .contact .box-contact .form-contact .input-form {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 30px;
+        width: 97%; }
+      .contact .box-contact .form-contact .form-textarea textarea {
+        resize: none;
+        height: 150px;
+        letter-spacing: 0.55px;
+        margin-top: 20px;
+        width: 100%; }
+      .contact .box-contact .form-contact .form-contact-btn {
+        margin-top: 20px; }
+      .contact .box-contact .form-contact .btn-form-contakt {
+        display: flex;
+        justify-content: center; } }

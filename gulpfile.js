@@ -39,6 +39,23 @@ gulp.task('scss-bank', function(){
         .pipe(gulp.dest('app/css'))
 }); 
 
+gulp.task('scss-contact', function(){
+    return gulp.src('app/scss/contact.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('app/css'))
+}); 
+
+gulp.task('scss-media1280', function(){
+    return gulp.src('app/scss/media1280-1920.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('app/css'))
+}); 
+
+gulp.task('scss-media1024', function(){
+    return gulp.src('app/scss/media-1024-mb.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('app/css'))
+}); 
 
 
 

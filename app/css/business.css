@@ -1,27 +1,144 @@
-.business-section{
+.business-section {
     height: 900px;
 }
 
-.icons-business:hover{
+.box-business {
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.icons-business:hover {
+    background-color: #f3379d;
+}
+
+.left-box-business {
+    background-color: #fff;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
     
-    background-color: red;
 }
 
-.icons-business img:hover{
-    color: white;
+.right-box-business {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
 }
 
-.re img{
-    color: white;
+.text-caption-business {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
 }
 
-.icons-business{
-    width: 69px;
-    height: 69px;
+.icons-business {
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
-    border: 2px solid rgb(103, 101, 101);
+    border: 1px solid rgba(152, 150, 148, 0.76);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 0 auto;
 }
+
+.icons-text-business {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 70px;
+    grid-row-gap: 30px;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 9%;
+}
+
+.text-name {
+    margin-top: 15px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Ubuntu-Medium;
+    font-size: 18px;
+    font-weight: 600;
+    /* Text style for "О, фис" */
+    color: #020102;
+    letter-spacing: 0.2px;
+}
+
+.text-buisness {
+    max-width: 584px;
+    color: #020102;
+    font-family: Ubuntu-Regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-top: 50px;
+}
+
+.caption-business {
+    /* Style for "iBeacon в" */
+    width: 414px;
+    font-family: "GothamProMedium";
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 52px;
+    text-transform: uppercase;
+    /* Text style for "Beacon , в" */
+    color: #020102;
+    letter-spacing: 1.52px;
+    margin-top: 60px;
+}
+
+/*#a5bec6  */
+
+.sing-icons {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ecf3f9;
+    border: 3px solid #a5bec6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.sing-icons:hover {
+    border: 3px solid #f3379d;
+    background-color: #ffff;
+}
+
+.sing-icons:hover .sing {
+    color: #000000;
+}
+
+.sing {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 21.94px;
+    color: #a5bec6;
+    letter-spacing: 0.54px;
+    cursor: default;
+}
+
+.business-btn {
+    color: #01b5e6;
+    font-family: Ubuntu;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 42px;
+    /* Text style for "З, аказать" */
+    color: #f1f4f6;
+    letter-spacing: 0.57px;
+    width: 330px;
+    height: 71px;
+    border-radius: 3px;
+    background-color: #f3379d;
+    border: 1px solid #0000;
+}
+

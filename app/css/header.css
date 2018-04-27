@@ -28,10 +28,10 @@ nav ul {
 }
 
 .nav-menu{
-    margin-top: 32px;  
-    margin-left: 160px;
+    margin-top: 32px;
+    margin-left: 12%;
 }
-   
+
 
 .logo {
   display: flex;
@@ -45,3 +45,4 @@ nav ul {
   height: 22px;
   margin: 34px 0 0 110px;
 }
+

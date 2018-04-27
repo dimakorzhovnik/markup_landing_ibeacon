@@ -1,69 +1,75 @@
 .how-it-works {
-  height: 910px;
-  background-color: #ffff;
+    height: 910px;
+    width: 100%;
+    background-color: #ffff;
+
 }
 
 .box-how-it-works {
-  display: grid;
-  grid-template-columns: 68.6% 32.4%;
-}
-.box-right-sity{
-  margin-left: 24px;
-  margin-top: 60px;
-  position: relative;
+    display: grid;
+    grid-template-columns: 68.6% 32.4%;
 }
 
-.box-left-iphone-btn{
+.box-right-sity {
+    margin-right: 10%;  
+    margin-top: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-left-iphone-btn {
     margin-top: 70px;
-   
+    height: 100%;
 }
 
 .text-works {
-  color: #020102;
-  font-family: "Gotham Pro";
-  font-size: 38px;
-  font-weight: 500;
-  line-height: 52px;
-  text-transform: uppercase;
-  /* Text style for "как это ра" */
-  letter-spacing: 1.52px;
+    color: #020102;
+    font-family: GothamProMedium;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 52px;
+    text-transform: uppercase;
+    /* Text style for "как это ра" */
+    letter-spacing: 1.52px;
+    margin-left: 9%;
 }
+
 .works-btn {
-  width: 270px;
-  height: 71px;
-  border-radius: 3px;
-  background-color: #f3379d;
-  border: 1px solid #0000;
-  color: #ffff;
-  display: flex;
-  justify-content: center;
-  margin-top: 60px;
-  font-size: 23px;
-font-weight: 500;
-line-height: 42px;
-margin-left: 25px;
+    width: 270px;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 42px;
+    margin-left: 25px;
 }
 
 .sity {
-  margin-top: 30px;
-  position: relative;
-  width: 100%;
-  height: 82%;
+        margin-top: 30px;
+        position: relative;
+        width: 91%;
+        height: 91%;
+        margin: 0 auto;
+        margin-left: 9%;
 }
 
 svg {
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .part {
-  opacity: 0;
+    opacity: 0;
 }
 
 .part:hover {
-  opacity: 0.4;
+    opacity: 0.4;
 }
-

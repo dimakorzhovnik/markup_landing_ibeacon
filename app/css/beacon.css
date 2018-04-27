@@ -1,13 +1,19 @@
 .beacon-section {
   background: url(../img/bg_beacon.png) no-repeat;
   height: 706px;
+  width: 100%;
   display: block;
 }
+
+
 
 .box-beacon {
   display: flex;
   justify-content: flex-end;
-  margin-right: 70px;
+}
+
+.content-beacon{
+  margin-right: 10%;  
 }
 
 .li-beacon{
@@ -15,8 +21,8 @@
 }
 
 .li-beacon li {
-  font-family: Ubuntu;
-  font-size: 20px;
+  font-family: Ubuntu-Regular;
+  font-size: 1.25em;
   font-weight: 400;
   line-height: 58px;
   color: #020102;
@@ -26,8 +32,8 @@
 
 .caption-beacon {
   max-width: 80px;
-  font-family: "Gotham Pro";
-  font-size: 38px;
+  font-family: "GothamProMedium";
+  font-size: 2.375em;
   font-weight: 500;
   line-height: 52px;
   text-transform: uppercase;
@@ -40,18 +46,17 @@
 .btn-beacon {
   width: 380px;
   height: 71px;
-  border-radius: 3px;
-  background-color: #f3379d;
-  border: 1px solid #0000;
-  font-family: Ubuntu;
-  font-size: 23px;
+  font-size: 1.4375em;
   font-weight: 500;
   line-height: 42px;
-  /* Text style for "П, рименит" */
-  color: #f1f4f6;
   letter-spacing: 0.57px;
 }
 
 .btn-beacon-right{
     margin-top: 37px;
+}
+
+
+.box-beacon img {
+  display: none;
 }

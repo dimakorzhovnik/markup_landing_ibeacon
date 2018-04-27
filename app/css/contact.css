@@ -1,0 +1,98 @@
+@charset "UTF-8";
+.contact {
+    height: 670px;
+    width: 100%;
+}
+
+.box-contact {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    height: 100%;
+}
+
+.left-contact-box {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+}
+
+.left-contact-box .caption-contact {
+    font-family: "GothamProMedium";
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 1.52px;
+    line-height: 52px;
+    text-transform: uppercase;
+}
+
+.left-contact-box .text-contact {
+    min-width: 400px;
+    font-family: Ubuntu-Regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* Text style for "У,  вас ос" */
+    color: #020102;
+    letter-spacing: 0.5px;
+    margin-top: 50px;
+}
+
+.text-contact p~p {
+    margin-top: 30px;
+}
+
+.right-contact-box {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 130px;
+    margin-right: 10%;
+}
+
+.form-contact {
+    width: 82%;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form input {
+    margin: 10px 0;
+    height: 50px;
+    padding-left: 20px;
+    font-family: Ubuntu-Regular;
+    font-size: 22px;
+    font-weight: 400;
+    color: #242321;
+    letter-spacing: 0.55px;
+}
+
+.form-textarea textarea {
+    resize: none;
+    height: 150px;
+    
+    padding-top: 20px;
+    font-family: Ubuntu-Regular;
+    font-size: 22px;
+    font-weight: 400;
+    /* Text style for "Т, екст со" */
+    letter-spacing: 0.55px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-contact-btn {
+    width: 330px;
+    height: 71px;
+    font-family: Ubuntu-Regular;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 42px;
+    /* Text style for "О, тправит" */
+    letter-spacing: 0.57px;
+    margin-top: 50px;
+}

@@ -22,54 +22,60 @@
                     </a>
                 </div>
 
-                <div class="nav-menu">
-                    <nav class="nav">
-                        <ul>
-                            <li>
-                                <a href="">
-                                    Увеличиваем конверсию
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    Принцип работы
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    №1 в Беларуси
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    О маячке
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    Ваш бизнес
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    Контакты
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+                <nav class="nav">
+                    <label for="menu-checkbox" class="toggle-button" data-open="Menu" data-close="Close" onclick></label>
+                    <ul class="menu" id="top-menu">
+                        <li class="active">
+                            <a href="#conversion">
+                                Увеличиваем конверсию
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#how-it-works">
+                                Принцип работы
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#project">
+                                №1 в Беларуси
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#beacon">
+                                О маячке
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#business">
+                                Ваш бизнес
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
 
             </div>
         </header>
         <main>
-            <section class="conversion">
+            <section class="conversion" id="conversion">
 
                 <div class="box-conversion">
                     <div class="iphone-icons">
 
 
-                        <div class="iphone">
-                            <img src="./img/screen1.png" alt="">
+                        <div class="img-iphone-screen">
+                            <div class="iphone-right-sity">
+                                <img src="./img/iphone.png" alt="">
+                            </div>
+                            <div class="screen-iphone">
+                                <img src="./img/screen1.png" alt="">
+
+
+                            </div>
                         </div>
 
                         <div class="icons-conversion">
@@ -92,19 +98,19 @@
                             <p>
                                 <b>Уникальная и инновационная технология для Беларуси.</b>
                             </p>
-                            <br>
+                         
                             <p>
                                 Отправляйте автоматически любому человеку в радиусе 5-ти метров вокург вашего магазина
                                 <b>
                                     сообщения о скидках и акциях прямо в его смартфон!</b>
 
                             </p>
-                            <br>
+                          
                             <p>
                                 Отслеживайте поведение внутри помещения, зонируйте ваш магазин, сообщайте об акциях в том отделе, где находится посетитель.
 
                             </p>
-                            <br>
+                            
                             <p>
                                 <b>Система полностью автоматизированна и не требует времени сотрудников на обслуживание.</b>
 
@@ -118,7 +124,7 @@
 
             </section>
 
-            <section class="how-it-works">
+            <section class="how-it-works" id="how-it-works">
                 <div class="box-how-it-works ">
                     <div class="box-left-iphone-btn ">
                         <div class="text-works">
@@ -2226,8 +2232,17 @@
 
                     </div>
                     <div class="box-right-sity">
-                        <div class="iphone screen-hover">
+                        <!-- <div class="iphone screen-hover">
                             <img src="./img/screen_bus.png" alt="">
+                        </div> -->
+                        <div class="img-iphone-screen">
+                            <div class="iphone-right-sity">
+                                <img src="./img/iphone.png" alt="">
+                            </div>
+
+                            <div class="screen-iphone screen-hover">
+                                <img src="./img/screen_bus.png" alt="">
+                            </div>
                         </div>
                         <button class="works-btn  btn-font-brd-col">
                             Хочу так же
@@ -2237,7 +2252,7 @@
                 </div>
             </section>
 
-            <section class="project">
+            <section class="project" id="project">
                 <div class="box-project">
                     <div class="box-left-project-content">
                         <div class="caption-project">
@@ -2280,7 +2295,7 @@
 
             </section>
 
-            <section class="beacon-section">
+            <section class="beacon-section" id="beacon">
 
                 <div class="box-beacon">
                     <img src="./img/bg_beacon.png" alt="">
@@ -2314,7 +2329,7 @@
                 </div>
             </section>
 
-            <section class="business-section">
+            <section class="business-section" id="business">
                 <div class="box-business">
                     <div class="left-box-business ">
                         <div class="text-caption-business ">
@@ -2421,21 +2436,31 @@
                     </div>
 
                     <div class="right-box-business">
-                        <div class="iphone">
+                        <!-- <div class="iphone">
 
                             <img src="./img/screen_business.png" alt="">
 
-                        </div>
+                        </div> -->
+                        <div class="img-iphone-screen">
+                                <div class="iphone-right-sity">
+                                    <img src="./img/iphone.png" alt="">
+                                </div>
+                                <div class="screen-iphone">
+                                        <img src="./img/screen_business.png" alt="">
+    
+    
+                                </div>
+                            </div>
 
                         <div class="btn">
-                            <button class="business-btn btn-font-brd-col">Заказать прямо сейчас!</button>
+                            <button class="business-btn btn-font-brd-col" id="btnBusiness ">Заказать прямо сейчас!</button>
                         </div>
 
                     </div>
                 </div>
             </section>
 
-            <section class="contact">
+            <section class="contact" id="contact">
                 <div class="box-contact">
                     <div class="left-contact-box">
                         <div class="caption-contact">

@@ -1,6 +1,8 @@
 @media screen and (min-width: 1280px) {
   .iphone-icons {
     margin-left: 15%; }
+  .sity {
+    height: 86%; }
   .content-btn-h {
     max-width: 600px; }
   .box-left-project-content {
@@ -8,82 +10,164 @@
     margin-top: 66px;
     margin-left: 15%; }
   .text-project {
-    font-size: 1.60em; }
+    font-size: 1.6em; }
   .li-beacon li {
-    font-size: 1.60em; }
+    font-size: 1.6em; }
   .text-buisness {
     max-width: 684px;
-    font-size: 1.50em; }
+    font-size: 1.5em; }
   .left-contact-box .text-contact {
     max-width: 600px;
-    font-size: 1.60em; } }
+    font-size: 1.6em; } }
 
 @media screen and (min-width: 1600px) {
-  .iphone-icons {
-    margin-left: 40%; }
-  .content-btn-h {
-    max-width: 700px; }
-  .text-conversion p {
-    font-size: 1.70em; }
+  .box-conversion {
+    padding-top: 10%;
+    height: 82%; }
+    .box-conversion .iphone-icons {
+      margin-left: 40%; }
+    .box-conversion .content-btn-h {
+      max-width: 700px; }
+    .box-conversion .text-conversion {
+      margin-top: 10px; }
+      .box-conversion .text-conversion p {
+        font-size: 1.7em;
+        padding-top: 16px; }
+  .box-how-it-works .box-left-iphone-btn {
+    height: 91%; }
+    .box-how-it-works .box-left-iphone-btn .sity {
+      margin-top: 0;
+      height: 90%; }
   .box-left-project-content {
     max-width: 700px; }
   .text-project {
-    font-size: 1.80em; }
+    font-size: 1.8em; }
   .li-beacon li {
-    font-size: 1.80em; }
+    font-size: 1.8em; }
   .text-buisness {
     max-width: 784px;
-    font-size: 1.80em; }
+    font-size: 1.8em; }
   .left-contact-box .text-contact {
     max-width: 600px;
-    font-size: 1.70em;
+    font-size: 1.7em;
     margin-left: 15%; }
   .caption-contact {
-    margin-left: 15%; } }
+    margin-left: 15%; }
+  .link-project {
+    font-size: 2em; } }
 
 @media screen and (min-width: 1920px) {
-  .nav-bar {
-    width: 100vw; }
-    .nav-bar .logo {
-      margin: 5px 0 0 17%; }
-    .nav-bar .nav ul li a {
-      font-size: 1.6em;
-      font-weight: 600;
-      padding: 0 22px; }
+  .nav-bar .logo img {
+    width: 13vw;
+    height: 2.6vh; }
+  .nav-bar .nav ul li a {
+    font-size: 1.6em; }
   .conversion {
     width: 100vw;
     height: 100vh; }
-    .conversion .content-btn-h {
-      max-width: 900px;
-      margin-top: 50px; }
-    .conversion .beacon {
-      display: flex;
-      justify-content: center;
-      margin-top: 50px; }
-    .conversion .iphone-icons {
-      margin-left: 70%;
-      margin-top: 50px; }
+    .conversion .box-conversion {
+      padding-top: 6%;
+      height: 82%;
+      grid-template-columns: 37% 13% 47%; }
+      .conversion .box-conversion .content-btn-h {
+        max-width: 900px;
+        margin-top: 50px; }
+        .conversion .box-conversion .content-btn-h h2 {
+          font-size: 2.5em;
+          font-weight: 600; }
+        .conversion .box-conversion .content-btn-h .text-conversion p {
+          font-size: 2.2em;
+          padding-top: 37px;
+          line-height: 1.6em; }
+        .conversion .box-conversion .content-btn-h .btn-pink {
+          width: 50%;
+          height: 13%;
+          font-weight: 700;
+          font-size: 1.75em; }
+      .conversion .box-conversion .beacon {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        width: 16vw;
+        height: 100vh; }
+        .conversion .box-conversion .beacon img {
+          width: 100%;
+          height: 20%; }
+      .conversion .box-conversion .iphone-icons {
+        margin-left: 0;
+        margin-top: 10%; }
+        .conversion .box-conversion .iphone-icons .img-iphone-screen {
+          width: 55%; }
+          .conversion .box-conversion .iphone-icons .img-iphone-screen .iphone-right-sity {
+            width: 100%;
+            height: 70%; }
+            .conversion .box-conversion .iphone-icons .img-iphone-screen .iphone-right-sity img {
+              width: 100%;
+              height: 100%; }
+          .conversion .box-conversion .iphone-icons .img-iphone-screen .screen-iphone {
+            width: 87%;
+            height: 73%; }
+            .conversion .box-conversion .iphone-icons .img-iphone-screen .screen-iphone img {
+              width: 100%; }
+        .conversion .box-conversion .iphone-icons .icons-conversion img {
+          width: 3.5vw;
+          height: 4.5vh; }
   .how-it-works {
     width: 100vw;
     height: 100vh; }
+    .how-it-works .box-right-sity {
+      align-items: normal; }
+      .how-it-works .box-right-sity .iphone-right-sity {
+        width: 100%; }
+      .how-it-works .box-right-sity .screen-iphone {
+        width: 85%;
+        height: 72%; }
+        .how-it-works .box-right-sity .screen-iphone img {
+          width: 100%; }
     .how-it-works .box-left-iphone-btn {
       height: 100vh; }
+    .how-it-works .works-btn {
+      width: 95%;
+      font-size: 1.9em;
+      margin: 60px auto 0 auto; }
   .project {
     width: 100vw;
     height: 100vh; }
-    .project .link-project a {
-      margin-top: 70px;
-      display: block;
-      margin-left: 20%;
-      font-size: 1.3em; }
-    .project .text-project {
-      font-size: 1.80em;
-      margin-left: 20%; }
-    .project .caption-project {
-      margin-top: 10%;
-      margin-left: 20%; }
-    .project .box-right-project-content {
-      margin-top: 10%; }
+    .project .box-project {
+      height: 100%; }
+      .project .box-project .box-left-project-content {
+        margin-left: 0;
+        max-width: 100%; }
+        .project .box-project .box-left-project-content .link-project a {
+          margin-top: 70px;
+          display: block;
+          margin-left: 20%;
+          font-size: 1.3em;
+          font-weight: 700; }
+        .project .box-project .box-left-project-content .text-project {
+          font-size: 2em;
+          margin-left: 20%;
+          max-width: 100%;
+          font-weight: 600;
+          letter-spacing: 1.5px;
+          line-height: 41px; }
+        .project .box-project .box-left-project-content .caption-project {
+          margin-top: 10%;
+          margin-left: 20%;
+          font-size: 2.875em;
+          font-weight: 600;
+          line-height: 1.4em;
+          letter-spacing: 0.12em; }
+      .project .box-project .box-right-project-content {
+        margin-top: 10%; }
+        .project .box-project .box-right-project-content .img-right-content img {
+          width: 90%;
+          height: 100%; }
+        .project .box-project .box-right-project-content .btn-project {
+          width: 50%;
+          font-size: 1.6em;
+          font-weight: 600;
+          letter-spacing: 3px; }
   .beacon-section {
     width: 100vw;
     height: 100vh; }
@@ -108,19 +192,76 @@
   .business-section {
     width: 100vw;
     height: 100vh; }
+    .business-section .box-business {
+      width: 100%;
+      height: 100%; }
+      .business-section .box-business .left-box-business {
+        height: 100%; }
+        .business-section .box-business .left-box-business .caption-business {
+          font-size: 2.7em;
+          width: 60%;
+          letter-spacing: 1.52px;
+          line-height: 67px; }
+        .business-section .box-business .left-box-business .text-buisness {
+          max-width: 80%;
+          font-size: 2em;
+          display: block;
+          margin-top: 5%;
+          line-height: 50px;
+          letter-spacing: 1px; }
+        .business-section .box-business .left-box-business .icons-text-business {
+          margin-top: 11%; }
+          .business-section .box-business .left-box-business .icons-text-business .icons-business {
+            width: 150px;
+            height: 150px; }
+            .business-section .box-business .left-box-business .icons-text-business .icons-business img {
+              width: 60%; }
+          .business-section .box-business .left-box-business .icons-text-business .sing-icons {
+            width: 148px;
+            height: 148px; }
+            .business-section .box-business .left-box-business .icons-text-business .sing-icons .sing {
+              font-size: 5em; }
+      .business-section .box-business .right-box-business {
+        width: 100%;
+        align-items: normal;
+        height: 100%; }
+        .business-section .box-business .right-box-business .iphone-right-sity {
+          width: 65%; }
+          .business-section .box-business .right-box-business .iphone-right-sity img {
+            width: 100%; }
+        .business-section .box-business .right-box-business .screen-iphone {
+          width: 54%;
+          height: 72%; }
+          .business-section .box-business .right-box-business .screen-iphone img {
+            width: 100%; }
+        .business-section .box-business .right-box-business .business-btn {
+          font-weight: 600;
+          font-size: 1.6em;
+          letter-spacing: 1px;
+          width: 55%;
+          height: 78px;
+          margin-top: 5%; }
   .contact {
     width: 100vw;
     height: 100vh; }
-    .contact .text-contact p ~ p {
-      margin-top: 50px; }
-    .contact .text-contact {
-      max-width: 901px;
-      font-size: 2em;
-      margin-left: 15%;
-      line-height: 2em;
-      letter-spacing: 2.5px;
-      margin-top: 100px; }
+    .contact .left-contact-box {
+      width: 100%;
+      margin-top: 0;
+      margin-left: 0;
+      justify-content: center; }
+      .contact .left-contact-box .caption-contact {
+        font-size: 3.3em; }
+      .contact .left-contact-box .text-contact {
+        max-width: 100%;
+        font-size: 2em;
+        margin-left: 15%;
+        line-height: 2em;
+        letter-spacing: 2.5px;
+        margin-top: 10%; }
+        .contact .left-contact-box .text-contact p ~ p {
+          margin-top: 50px; }
     .contact .right-contact-box {
-      margin-top: 202px; }
+      margin-top: 19%;
+      justify-content: center; }
     .contact .form-contact {
       width: 65%; } }

@@ -7,7 +7,6 @@
 @import url(../css/conversion.css);
 @import url(../css/media1280-1920.css);
 @import url(../css/media-1024-mb.css);
-
 @font-face {
     font-family: "Roboto-Light";
     src: url(../font/Roboto-Light.ttf);
@@ -33,10 +32,11 @@
     src: url(../font/Ubuntu-Bold.ttf);
 }
 
-
 * {
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    outline: 0px;
 }
 
 body {
@@ -44,7 +44,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-content: stretch;
-    
     /* background-image: url(../img/pattern.jpg); */
     background-color: #f7f7f7;
     margin: 0 auto;
@@ -54,7 +53,6 @@ main {
     flex: 1 1 auto;
 }
 
-
 footer {
     flex: 0 1 auto;
     height: 64px;
@@ -63,10 +61,11 @@ footer {
     display: flex;
 }
 
+
+
 .i {
     text-transform: none;
 }
-
 
 .btn-font-brd-col {
     font-family: Ubuntu-Medium;
@@ -76,7 +75,7 @@ footer {
     border: 1px;
 }
 
-.wrapper{
+.wrapper {
     width: 100%
 }
 

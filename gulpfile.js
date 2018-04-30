@@ -59,3 +59,12 @@ gulp.task('scss-media1024', function(){
 
 
 
+// gulp.task('watch', function(){
+//  // gulp.watch('app/scss/**/*.scss', ['sass']); 
+//  gulp.watch('files-to-watch', ['media-1024-mb'])
+//   // Other watchers
+        
+// })
+
+
+

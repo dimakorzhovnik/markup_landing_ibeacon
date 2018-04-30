@@ -1,8 +1,6 @@
 @media (min-width: 1000px) and (max-width: 1270px) {
-  .logo a {
-    margin: 34px 0 0 25%; }
   .nav ul li a {
-    padding: 0 5px; }
+    padding: 10px; }
   .conversion .text-conversion p {
     font-size: 1.2em;
     line-height: normal;
@@ -14,14 +12,19 @@
     margin-left: 5%; }
   .box-left-project-content {
     margin-left: 5%; }
-  .box-right-project-content {
-    margin-right: 5%; }
+  .img-right-content {
+    margin-right: 10%; }
+  .img-right-content img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px; }
   .content-beacon {
     margin-right: 5%; }
   .text-caption-business {
     margin-left: 5%; }
   .right-box-business {
-    margin-right: 5%; }
+    margin-right: 5%;
+    margin-top: 23%; }
   .contact .box-contact {
     display: flex;
     flex-direction: column;
@@ -42,6 +45,149 @@
       align-items: center;
       margin-top: 10px;
       margin-right: 0; }
+    .contact .box-contact .form-contact {
+      width: 90%; }
+      .contact .box-contact .form-contact .input-form {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 30px;
+        width: 97%; }
+      .contact .box-contact .form-contact .form-textarea textarea {
+        resize: none;
+        height: 150px;
+        letter-spacing: 0.55px;
+        margin-top: 20px;
+        width: 100%; }
+      .contact .box-contact .form-contact .form-contact-btn {
+        margin-top: 20px; }
+      .contact .box-contact .form-contact .btn-form-contakt {
+        display: flex;
+        justify-content: center; } }
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .nav ul li a {
+    padding: 10px; }
+  .nav-bar {
+    width: 97%; } }
+
+@media (max-width: 950px) {
+  .nav {
+    display: none; } }
+
+@media (min-width: 640px) and (max-width: 1000px) {
+  .box-conversion {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-column-gap: 8%; }
+    .box-conversion .beacon {
+      display: none; }
+    .box-conversion .content-btn-h {
+      max-width: 100%; }
+      .box-conversion .content-btn-h h2 {
+        font-size: 2em; }
+    .box-conversion .text-conversion {
+      margin-top: 0px; }
+      .box-conversion .text-conversion p {
+        padding-top: 4%;
+        line-height: 1.5em;
+        font-size: 1em; }
+    .box-conversion .btn-pink {
+      width: 50vw;
+      margin-top: 35px;
+      font-size: 1.2em; }
+  .how-it-works .text-works {
+    font-size: 2em;
+    width: 100%; }
+  .how-it-works .sity {
+    align-items: flex-start; }
+    .how-it-works .sity svg {
+      height: 80%;
+      width: 100%; }
+  .how-it-works .box-right-sity {
+    margin-top: 0px;
+    margin-right: 7%; }
+    .how-it-works .box-right-sity .works-btn {
+      width: 100%;
+      height: 7%;
+      margin-left: 0px; }
+  .project .box-project {
+    height: 100%; }
+    .project .box-project .box-left-project-content {
+      margin-top: 0; }
+      .project .box-project .box-left-project-content .caption-project {
+        font-size: 2em;
+        margin-top: 5%;
+        min-width: 600px; }
+      .project .box-project .box-left-project-content .text-project {
+        margin-top: 15px; }
+      .project .box-project .box-left-project-content .link-project a {
+        margin-top: 33px; }
+    .project .box-project .box-right-project-content {
+      margin-top: 0;
+      justify-content: center;
+      align-items: normal; }
+      .project .box-project .box-right-project-content .img-right-content {
+        margin-top: 20%; }
+        .project .box-project .box-right-project-content .img-right-content img {
+          width: 100%;
+          height: 100%; }
+  .beacon-section {
+    background: none; }
+    .beacon-section .box-beacon .content-beacon {
+      margin: 0 auto; }
+    .beacon-section .box-beacon .caption-beacon {
+      font-size: 2.275em;
+      letter-spacing: 5px;
+      margin-top: 50px; }
+    .beacon-section .box-beacon .li-beacon li {
+      font-size: 1.6em;
+      line-height: 50px;
+      letter-spacing: 1px; }
+  .box-business {
+    grid-template-columns: 50% 50%; }
+    .box-business .right-box-business {
+      margin-left: 9%;
+      margin-right: 0; }
+      .box-business .right-box-business .business-btn {
+        width: 100%; }
+    .box-business .icons-text-business {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 70px;
+      grid-row-gap: 20px;
+      width: 50%;
+      margin-top: 30px;
+      margin-left: 14%; }
+    .box-business .caption-business {
+      letter-spacing: 0;
+      font-size: 1.9em;
+      max-width: 350px; }
+      .box-business .caption-business h4 {
+        font-weight: 400; }
+    .box-business .text-buisness {
+      display: none; }
+  .contact .box-contact {
+    display: flex;
+    flex-direction: column;
+    height: 100%; }
+    .contact .box-contact .left-contact-box {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 5%;
+      height: 65%; }
+      .contact .box-contact .left-contact-box .text-contact {
+        margin-top: 20px;
+        max-width: 900px; }
+      .contact .box-contact .left-contact-box .text-contact p ~ p {
+        margin-top: 10px; }
+    .contact .box-contact .right-contact-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+      margin-right: 0;
+      height: 100%; }
     .contact .box-contact .form-contact {
       width: 90%; }
       .contact .box-contact .form-contact .input-form {

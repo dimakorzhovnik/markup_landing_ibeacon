@@ -1,0 +1,39 @@
+@media (min-width: 320px) and (max-width: 640px) {
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .box-contact {
+      display: flex;
+      flex-direction: column;
+      width: 85%;
+      .left-contact-box {
+        margin-left: 0;
+        align-items: center;
+        .text-contact {
+           min-width: 100%;
+          letter-spacing: 0;
+          font-size: 1em;
+          margin-top: 0;
+          .text-contact-none640 {
+            display: none;
+          }
+        }
+      }
+      .right-contact-box {
+        margin-top: 7%;
+        margin-right: 0;
+        width: 96%;
+
+        .form-contact {
+          width: 100%;
+        }
+        .btn-form-contakt {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@media (min-width: 320px) and (max-width: 640px) {
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+    .contact .box-contact {
+      display: flex;
+      flex-direction: column;
+      width: 85%; }
+      .contact .box-contact .left-contact-box {
+        margin-left: 0;
+        align-items: center; }
+        .contact .box-contact .left-contact-box .text-contact {
+          min-width: 100%;
+          letter-spacing: 0;
+          font-size: 1em;
+          margin-top: 0; }
+          .contact .box-contact .left-contact-box .text-contact .text-contact-none640 {
+            display: none; }
+      .contact .box-contact .right-contact-box {
+        margin-top: 7%;
+        margin-right: 0;
+        width: 96%; }
+        .contact .box-contact .right-contact-box .form-contact {
+          width: 100%; }
+        .contact .box-contact .right-contact-box .btn-form-contakt {
+          display: flex;
+          justify-content: center; } }

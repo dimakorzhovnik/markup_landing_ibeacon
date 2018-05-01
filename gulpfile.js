@@ -57,6 +57,12 @@ gulp.task('scss-media1024', function(){
         .pipe(gulp.dest('app/css'))
 }); 
 
+gulp.task('scss-media320', function(){
+    return gulp.src('app/scss/media-320-640.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('app/css'))
+}); 
+
 
 
 // gulp.task('watch', function(){

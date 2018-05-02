@@ -62,7 +62,9 @@ footer {
     display: flex;
 }
 
-
+.tibo{
+    display: none;
+}
 
 .i {
     text-transform: none;

@@ -1,4 +1,245 @@
 @media (min-width: 320px) and (max-width: 640px) {
+  .conversion {
+    height: 100vh; }
+    .conversion .box-conversion {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      height: 100%;
+      padding: 0; }
+      .conversion .box-conversion .iphone-icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 39%;
+        bottom: 13%;
+        margin: 0; }
+      .conversion .box-conversion .content-btn-h {
+        max-width: 80%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .conversion .box-conversion .content-btn-h h2 {
+          font-size: 1.4em;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 1.52px;
+          text-align: center;
+          margin-top: 28%; }
+        .conversion .box-conversion .content-btn-h .btn-pink {
+          width: 100%;
+          height: 9%;
+          font-size: 1em;
+          margin-bottom: 7%;
+          letter-spacing: normal; }
+      .conversion .box-conversion .text-conversion {
+        display: none; }
+      .conversion .box-conversion .beacon {
+        display: none; }
+  .how-it-works {
+    height: 100vh; }
+    .how-it-works .text-works {
+      font-size: 1.6em;
+      line-height: normal; }
+    .how-it-works .sity {
+      width: 100%; }
+    .how-it-works .box-right-sity {
+      justify-content: space-between;
+      margin-top: 100%; }
+      .how-it-works .box-right-sity .img-iphone-screen {
+        margin-top: 100%; }
+      .how-it-works .box-right-sity .works-btn {
+        height: 11%;
+        margin-right: 40vh;
+        margin-bottom: 17%; }
+  .project {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; }
+    .project .box-project {
+      display: flex;
+      flex-direction: column;
+      width: 80%; }
+      .project .box-project .box-left-project-content {
+        margin-top: 8vw;
+        margin-left: 0; }
+        .project .box-project .box-left-project-content .caption-project {
+          font-size: 4vw;
+          text-align: center;
+          line-height: 2em; }
+        .project .box-project .box-left-project-content .text-project {
+          display: none; }
+        .project .box-project .box-left-project-content .link-project {
+          display: none; }
+      .project .box-project .box-right-project-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        margin: 0; }
+        .project .box-project .box-right-project-content .img-right-content {
+          width: 90%;
+          margin-top: 5%;
+          display: block; }
+          .project .box-project .box-right-project-content .img-right-content img {
+            max-width: 100%;
+            height: auto;
+            display: block; }
+        .project .box-project .box-right-project-content .elips {
+          margin-top: 0; }
+        .project .box-project .box-right-project-content .btn {
+          width: 100%;
+          margin-bottom: 10%; }
+          .project .box-project .box-right-project-content .btn .btn-project {
+            width: 100%;
+            font-size: 6vw; }
+      .project .box-project .tibo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10%;
+        font-size: 1.6em;
+        color: #fff;
+        font-weight: 600; }
+  .beacon-section {
+    background: none;
+    width: 100vw;
+    height: 100vh; }
+    .beacon-section .box-beacon {
+      display: flex;
+      justify-content: center; }
+      .beacon-section .box-beacon .content-beacon {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        margin-right: 0; }
+        .beacon-section .box-beacon .content-beacon .caption-beacon {
+          max-width: 100%;
+          font-size: 3.5vh;
+          margin-top: 10%;
+          text-align: center;
+          line-height: 2em; }
+        .beacon-section .box-beacon .content-beacon .li-beacon {
+          margin-top: 11%; }
+          .beacon-section .box-beacon .content-beacon .li-beacon li {
+            width: 100%;
+            font-size: 2.5vh;
+            line-height: 2em;
+            letter-spacing: 0.5px;
+            margin-left: 0; }
+        .beacon-section .box-beacon .content-beacon .btn-beacon-right {
+          margin-top: 35%;
+          width: 100%;
+          display: flex;
+          justify-content: center; }
+          .beacon-section .box-beacon .content-beacon .btn-beacon-right .btn-font-brd-col {
+            width: 100%;
+            height: 10%;
+            font-size: 1em;
+            letter-spacing: 0.4px; }
+  .business-section {
+    height: 100vh; }
+    .business-section .box-business {
+      grid-template-columns: 57% 43%;
+      width: 100%; }
+      .business-section .box-business .left-box-business {
+        display: flex;
+        flex-direction: column;
+        margin-top: 32%; }
+        .business-section .box-business .left-box-business .text-caption-business {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin: 0; }
+          .business-section .box-business .left-box-business .text-caption-business .caption-business {
+            width: 100vw;
+            font-size: 1.3em;
+            line-height: 38px;
+            letter-spacing: 1.52px;
+            display: block;
+            text-align: center;
+            margin: 0; }
+        .business-section .box-business .left-box-business .icons-text-business {
+          display: grid;
+          grid-template-columns: 50% 50%;
+          grid-row-gap: 2vh;
+          grid-column-gap: 0;
+          width: 100%;
+          margin: 0;
+          margin-top: 16%; }
+          .business-section .box-business .left-box-business .icons-text-business .icons-text-name {
+            display: flex;
+            flex-direction: column;
+            align-items: center; }
+            .business-section .box-business .left-box-business .icons-text-business .icons-text-name .icons-business {
+              width: 16vw;
+              height: 7vh;
+              margin: 0 auto; }
+              .business-section .box-business .left-box-business .icons-text-business .icons-text-name .icons-business img {
+                max-width: 63%; }
+            .business-section .box-business .left-box-business .icons-text-business .icons-text-name .text-name {
+              margin-top: 0;
+              text-align: center;
+              font-size: 2vh;
+              font-weight: normal;
+              letter-spacing: 0; }
+            .business-section .box-business .left-box-business .icons-text-business .icons-text-name .sing-icons {
+              width: 16vw;
+              height: 8vh;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              margin: 0 auto; }
+              .business-section .box-business .left-box-business .icons-text-business .icons-text-name .sing-icons .sing {
+                font-size: 5vh; }
+      .business-section .box-business .right-box-business {
+        width: 100%;
+        max-width: 100%;
+        height: 50%;
+        margin-top: 100%; }
+        .business-section .box-business .right-box-business .img-iphone-screen {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 0%; }
+          .business-section .box-business .right-box-business .img-iphone-screen .iphone-right-sity {
+            position: relative;
+            width: 90%;
+            max-width: 90%; }
+            .business-section .box-business .right-box-business .img-iphone-screen .iphone-right-sity img {
+              max-width: 100%;
+              display: block;
+              position: relative; }
+          .business-section .box-business .right-box-business .img-iphone-screen .screen-iphone {
+            width: 75%;
+            height: 71%;
+            position: absolute;
+            display: flex;
+            /* justify-content: center; */
+            /* margin-top: 28%; */ }
+        .business-section .box-business .right-box-business .btn {
+          display: flex;
+          justify-content: center;
+          /* margin-top: 27px; */
+          /* right: 69%; */ }
+          .business-section .box-business .right-box-business .btn .business-btn {
+            font-size: 1em;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0;
+            width: 100%;
+            height: 8vh;
+            /* height: 30px; */
+            margin: 0;
+            margin-top: 10%; }
+      .business-section .box-business .text-buisness {
+        display: none; }
   .contact {
     display: flex;
     align-items: center;

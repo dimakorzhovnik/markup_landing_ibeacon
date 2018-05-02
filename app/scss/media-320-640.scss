@@ -1,4 +1,310 @@
 @media (min-width: 320px) and (max-width: 640px) {
+  .conversion {
+    height: 100vh;
+    .box-conversion {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      height: 100%;
+      padding: 0;
+      .iphone-icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 39%;
+        bottom: 13%;
+        margin: 0;
+      }
+      .content-btn-h {
+        max-width: 80%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2 {
+          font-size: 1.4em;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 1.52px;
+          text-align: center;
+          margin-top: 28%;
+        }
+        .btn-pink {
+          width: 100%;
+          height: 9%;
+          font-size: 1em;
+          margin-bottom: 7%;
+          letter-spacing: normal; 
+      }
+    }
+    .text-conversion {
+      display: none;
+    }
+    .beacon {
+      display: none;
+    }
+  }
+  }
+  .how-it-works {
+    height: 100vh;
+
+    .text-works {
+      font-size: 1.6em;
+      line-height: normal;
+    }
+    .sity {
+      width: 100%;
+    }
+    .box-right-sity {
+      justify-content: space-between;
+      margin-top: 100%;
+      .img-iphone-screen {
+        margin-top: 100%;
+      }
+      .works-btn {
+        height: 11%;
+        margin-right: 40vh;
+        margin-bottom: 17%;
+      }
+    }
+  }
+
+  .project {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    .box-project {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      .box-left-project-content {
+        margin-top: 8vw;
+        margin-left: 0;
+        .caption-project {
+          font-size: 4vw;
+          text-align: center;
+          line-height: 2em;
+        }
+        .text-project {
+          display: none;
+        }
+        .link-project {
+          display: none;
+        }
+      }
+      .box-right-project-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        margin: 0;
+        .img-right-content {
+          width: 90%;
+          margin-top: 5%;
+          display: block;
+          img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+          }
+        }
+        .elips {
+          margin-top: 0;
+        }
+        .btn {
+          width: 100%;
+          margin-bottom: 10%;
+          .btn-project {
+            width: 100%;
+            font-size: 6vw;
+          }
+        }
+      }
+      .tibo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10%;
+        font-size: 1.6em;
+        color: #fff;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .beacon-section {
+    background: none;
+    width: 100vw;
+    height: 100vh;
+    .box-beacon {
+      display: flex;
+      justify-content: center;
+      .content-beacon {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        margin-right: 0;
+        .caption-beacon {
+          max-width: 100%;
+          font-size: 3.5vh;
+          margin-top: 10%;
+          text-align: center;
+          line-height: 2em;
+        }
+        .li-beacon {
+          margin-top: 11%;
+          li {
+            width: 100%;
+            font-size: 2.5vh;
+            line-height: 2em;
+            letter-spacing: 0.5px;
+            margin-left: 0;
+          }
+        }
+        .btn-beacon-right {
+          margin-top: 35%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          .btn-font-brd-col {
+            width: 100%;
+            height: 10%;
+            font-size: 1em;
+            letter-spacing: 0.4px;
+          }
+        }
+      }
+    }
+  }
+  .business-section {
+    height: 100vh;
+    .box-business {
+      grid-template-columns: 57% 43%;
+      width: 100%;
+      .left-box-business {
+        // height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 32%;
+        .text-caption-business {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin: 0;
+          .caption-business {
+            width: 100vw;
+            font-size: 1.3em;
+            line-height: 38px;
+            letter-spacing: 1.52px;
+            display: block;
+            text-align: center;
+            margin: 0;
+          }
+        }
+
+        .icons-text-business {
+          display: grid;
+          grid-template-columns: 50% 50%;
+          grid-row-gap: 2vh;
+          grid-column-gap: 0;
+          width: 100%;
+
+          margin: 0;
+          margin-top: 16%;
+          .icons-text-name {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .icons-business {
+              width: 16vw;
+              height: 7vh;
+              margin: 0 auto;
+              img {
+                max-width: 63%;
+              }
+            }
+            .text-name {
+              margin-top: 0;
+              text-align: center;
+              font-size: 2vh;
+              font-weight: normal;
+              letter-spacing: 0;
+            }
+
+            .sing-icons {
+              width: 16vw;
+              height: 8vh;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              margin: 0 auto;
+              .sing {
+                font-size: 5vh;
+              }
+            }
+          }
+        }
+      }
+      .right-box-business {
+        width: 100%;
+        max-width: 100%;
+        height: 50%;
+        margin-top: 100%;
+        .img-iphone-screen {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 0%;
+          .iphone-right-sity {
+            position: relative;
+            width: 90%;
+            max-width: 90%;
+            img {
+              max-width: 100%;
+              display: block;
+              position: relative;
+            }
+          }
+          .screen-iphone {
+            width: 75%;
+            height: 71%;
+            position: absolute;
+            display: flex;
+            /* justify-content: center; */
+            /* margin-top: 28%; */
+          }
+        }
+        .btn {
+          display: flex;
+          justify-content: center;
+          /* margin-top: 27px; */
+          /* right: 69%; */
+
+          .business-btn {
+            font-size: 1em;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0;
+            width: 100%;
+            height: 8vh;
+            /* height: 30px; */
+
+            margin: 0;
+            margin-top: 10%;
+          }
+        }
+      }
+      .text-buisness {
+        display: none;
+      }
+    }
+  }
+
   .contact {
     display: flex;
     align-items: center;
@@ -12,7 +318,7 @@
         margin-left: 0;
         align-items: center;
         .text-contact {
-           min-width: 100%;
+          min-width: 100%;
           letter-spacing: 0;
           font-size: 1em;
           margin-top: 0;
